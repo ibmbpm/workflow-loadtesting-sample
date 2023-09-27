@@ -9,7 +9,7 @@ Follow the steps below to run the Jmeter testplan against the Hiring Sample on W
 
 * Make sure the Hiring Sample is installed on your Workflow installation: https://www.ibm.com/docs/en/baw/22.x?topic=tutorials-instructions-running-hiring-sample-process-application
 * Install Jmeter on a client machine: https://jmeter.apache.org/download_jmeter.cgi
-* Download and extract the HiringSample.zip on your client machine
+* Download the jmx and csv files on your client machine
 * Load the testplan HiringSample.jmx into JMeter
 * Modify the user defined variables to match your environment and the load you want to produce. ProcessAppId and bpdId match the HiringSample.
 * Modify the UserPassword.cvs to match your environment. Ideally you have defined in the cvs the same amount of users as defined for the numberOfThreads setting in the User defined variables
